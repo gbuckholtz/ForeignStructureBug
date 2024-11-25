@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_5B287891-D02C-4B5E-AB02-B91E19F8A15F" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_143B5EAC-5C65-44D8-B1C0-EB8E07FBE492" name="common" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_5B287891-D02C-4B5E-AB02-B91E19F8A15F">
+  <dmn:extensionElements/>
+  <dmn:itemDefinition id="_9754D69D-098F-4279-9324-371FE39ECF1B" name="AnotherSimpeStructure" isCollection="false">
+    <dmn:itemComponent id="_67287E97-A35A-4B69-8AE5-9FEEEB9C24E0" name="SimpleString" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_385A87AF-2973-4B98-BD0C-FB8C8C5A9E2B" name="SimpleNumber" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram id="_662EFE66-C3E3-487F-914D-37335EFD42CA" name="DRG">
+      <di:extension>
+        <kie:ComponentsWidthsExtension/>
+      </di:extension>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</dmn:definitions>

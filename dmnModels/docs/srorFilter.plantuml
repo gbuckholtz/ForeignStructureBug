@@ -1,0 +1,24 @@
+@startuml SRoR
+
+start
+:start with
+* List of all courses taught by instructor
+    * AcademicYearTaught
+    * %responsibility
+    * Format
+    * Level;
+:Filter out %resp < 100;
+repeat
+    :Filter list for CompareAcademicYear;
+    :reduce to distinct list based on
+    *Format
+    *Level;
+    :Count number of list Entries;
+    if (Count > 0) then (yes)
+        :add 1 to CourseCount;
+    else (no)
+    endif
+       
+repeat while (CompareAcademicYear within 5 AcademicYears from start) is (yes)
+->no;
+stop
